@@ -1,8 +1,8 @@
-l = [1, True, "salom dunyo", 3, False, 6, "hello world", 3.9, "uzbekistan", 1]
+t = [1, True, "salom dunyo", 3, False, 6, "hello world", 3.9, "uzbekistan", 1]
 
-new_l = []
-new_l += l[::3]
+s = []
+s += t[::3]
 
-t = tuple(new_l)
+t = tuple(s)
 
 print(f"1 -> {t.index(1)}")
